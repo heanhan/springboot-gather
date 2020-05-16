@@ -1,10 +1,63 @@
-#\u914D\u7F6E jpa  \u7684 \u5FAE\u670D\u52A1\u4FE1\u606F
+#\u914D\u7F6Ejpa \u6A21\u5757\u5FAE\u670D\u52A1\u7684\u914D\u7F6E\u4FE1\u606F
 server:
-  address: 9001
-
+  port: 9001
 spring:
   application:
     name: springboot-jpa
+  #\u914D\u7F6Emysql\u7684\u8FDE\u63A5\u4FE1\u606F
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot_gather?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Root123456
+    #\u914D\u7F6Edruid\u8FDE\u63A5\u6C60
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      filters: stat
+      initial-size: 10
+      max-active: 20
+      max-pool-prepared-statement-per-connection-size: 20
+      max-wait: 60000
+      min-evictable-idle-time-millis: 300000
+      min-idle: 10
+      pool-prepared-statements: true
+      stat-view-servlet:
+        enabled: true
+        login-password: 123456
+        login-username: admin
+        reset-enable: true
+        url-pattern: /druid/*
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      validation-query: SELECT 'x'
+      web-stat-filter:
+        enabled: true
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+        principal-cookie-name: admin
+        principal-session-name: admin
+        session-stat-enable: false
+        profile-enable: true
+        session-stat-max-count: 1000
+        url-pattern: /*
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL55Dialect
 
-
-
+logging:
+  level:
+    com:
+      example:
+        jpa:
+          service: info
+    #\u663E\u793Ajpa \u7684\u53C2\u6570
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql:
+              BasicBinder: trace
