@@ -9,58 +9,27 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>springboot-gather</artifactId>
+    <artifactId>email</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-gather</name>
-    <description>gather project for Spring Boot</description>
-
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
+    <name>email</name>
+    <description>email project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <modules>
-        <module>springboot-elasticsearch</module>
-        <module>springboot-email</module>
-        <module>springboot-jpa</module>
-        <module>springboot-jwt</module>
-        <module>springboot-ldap</module>
-        <module>springboot-mongodb</module>
-        <module>springboot-mybaits-auto-table</module>
-        <module>springboot-mybatis-muilty</module>
-        <module>springboot-mybatis-simple</module>
-        <module>springboot-redis-jedis</module>
-        <module>springboot-redis-lettuce</module>
-        <module>springboot-security</module>
-        <module>springboot-shiro</module>
-    </modules>
-
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>com.battcn</groupId>
-            <artifactId>swagger-spring-boot-starter</artifactId>
-            <version>2.1.2-RELEASE</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -73,5 +42,14 @@
             </exclusions>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
