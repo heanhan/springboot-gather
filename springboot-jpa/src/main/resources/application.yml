@@ -1,16 +1,18 @@
-#\u914D\u7F6Ejpa \u6A21\u5757\u5FAE\u670D\u52A1\u7684\u914D\u7F6E\u4FE1\u606F
+#配置 springboot-jpa  模块的 微服务信息
 server:
   port: 9001
+  servlet:
+    context-path: /api/jpa
 spring:
   application:
     name: springboot-jpa
-  #\u914D\u7F6Emysql\u7684\u8FDE\u63A5\u4FE1\u606F
+  #  配置muysql 数据库信息
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springboot_gather?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
     password: Root123456
-    #\u914D\u7F6Edruid\u8FDE\u63A5\u6C60
+    #配置druid 连接池
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       filters: stat
@@ -41,20 +43,32 @@ spring:
         profile-enable: true
         session-stat-max-count: 1000
         url-pattern: /*
+  # 配置jpa
   jpa:
     database: mysql
     show-sql: true
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL55Dialect
-
+  # 设置热启动的配置（可以不用设置默认为true ,但是防止其他地方修改了默认值）
+  devtools:
+    livereload:
+      enabled: true
+knife4j:
+  enable: true
+  markdowns: classpath:markdown/*
+  basic:
+    enable: false
+    username: admin
+    password: 123456
+# 配置日志信息
 logging:
   level:
     com:
       example:
         jpa:
           service: info
-    #\u663E\u793Ajpa \u7684\u53C2\u6570
+    #打印jpa的参数日志
     org:
       hibernate:
         type:

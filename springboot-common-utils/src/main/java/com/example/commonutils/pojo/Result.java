@@ -46,4 +46,6 @@ public class Result {
         this.code = code;
         this.message = message;
     }
+
+    
 }

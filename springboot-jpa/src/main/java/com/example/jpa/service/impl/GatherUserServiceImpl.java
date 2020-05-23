@@ -18,7 +18,11 @@ public class GatherUserServiceImpl implements GatherUserService {
     private GatherUserDao gatherUserDao;
 
     @Override
-    public void addGatherUser(GatherUser gatherUser) {
-
+    public boolean addGatherUser(GatherUser gatherUser) {
+        GatherUser user = gatherUserDao.save(gatherUser);
+        if(null!=user){
+            return true;
+        }
+        return false;
     }
 }

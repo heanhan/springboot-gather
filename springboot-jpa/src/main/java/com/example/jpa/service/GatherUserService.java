@@ -13,5 +13,5 @@ public interface GatherUserService {
      *  保存用用户信息
      * @param gatherUser
      */
-    void addGatherUser(GatherUser gatherUser);
+    boolean addGatherUser(GatherUser gatherUser);
 }
