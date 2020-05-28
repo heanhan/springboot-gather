@@ -21,6 +21,8 @@
     </properties>
 
     <modules>
+        <module>springboot-2pc-seata</module>
+        <module>springboot-cannal</module>
         <module>springboot-common-utils</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-email</module>
