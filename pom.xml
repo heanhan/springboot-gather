@@ -35,8 +35,9 @@
         <module>springboot-mybaits-auto-table</module>
         <module>springboot-mybatis-muilty</module>
         <module>springboot-mybatis-simple</module>
-        <module>springboot-rabbitmq</module>
+        <module>springboot-netty</module>
         <module>springboot-quartz</module>
+        <module>springboot-rabbitmq</module>
         <module>springboot-redis-jedis</module>
         <module>springboot-redis-lettuce</module>
         <module>springboot-rocketmq</module>
@@ -66,23 +67,23 @@
             <optional>true</optional>
         </dependency>
 
-        <dependency>
-            <groupId>com.battcn</groupId>
-            <artifactId>swagger-spring-boot-starter</artifactId>
-            <version>2.1.2-RELEASE</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.battcn</groupId>-->
+<!--            <artifactId>swagger-spring-boot-starter</artifactId>-->
+<!--            <version>2.1.2-RELEASE</version>-->
+<!--        </dependency>-->
 
-        <!--引入swagger 的美化的文档-->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
-            <version>2.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
-        </dependency>
+<!--        &lt;!&ndash;引入swagger 的美化的文档&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.github.xiaoymin</groupId>-->
+<!--            <artifactId>knife4j-spring-boot-starter</artifactId>-->
+<!--            <version>2.0.2</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>io.springfox</groupId>-->
+<!--            <artifactId>springfox-swagger-ui</artifactId>-->
+<!--            <version>2.9.2</version>-->
+<!--        </dependency>-->
 
 
         <dependency>

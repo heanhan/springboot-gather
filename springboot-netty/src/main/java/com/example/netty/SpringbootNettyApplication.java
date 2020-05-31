@@ -1,18 +1,13 @@
-package com.example.jpa;
+package com.example.netty;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-/**
- * @author zhaojh0912
- */
-
 @SpringBootApplication
-public class SpringbootJpaApplication {
+public class SpringbootNettyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootJpaApplication.class, args);
+        SpringApplication.run(SpringbootNettyApplication.class, args);
     }
 
 }
