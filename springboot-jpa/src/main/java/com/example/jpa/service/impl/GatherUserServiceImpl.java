@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @Description TODO
  * @Date 2020/5/16 11:29 上午
  */
-@Service
+@Service(value = "gatherUserServiceImpl")
 public class GatherUserServiceImpl implements GatherUserService {
 
     @Autowired

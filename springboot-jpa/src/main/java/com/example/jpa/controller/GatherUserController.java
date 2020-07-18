@@ -1,8 +1,11 @@
 package com.example.jpa.controller;
 
+import com.example.jpa.api.GatherUserApiService;
 import com.example.jpa.entity.GatherUser;
 import com.example.jpa.service.GatherUserService;
+import com.example.jpa.vo.GatherUserVo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,11 +21,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class GatherUserController {
 
     @Autowired
-    private GatherUserService gatherUserService;
+    @Qualifier(value = "gatherUserApiServiceImpl")
+    private GatherUserApiService gatherUserApiService;
 
     @PostMapping(value = "/addGatherUser")
-    public String addGatherUser(@RequestBody GatherUser gatherUser){
-        gatherUserService.addGatherUser(gatherUser);
+    public String addGatherUser(@RequestBody GatherUserVo gatherUserVo){
+        /**
+         * 业务实现逻辑
+         * 1、首先进行vo与实体的类进行转换
+         * 2、
+         */
+        gatherUserApiService.addGatherUser(gatherUserVo);
         return null;
     }
 

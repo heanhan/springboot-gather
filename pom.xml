@@ -22,10 +22,12 @@
 
     <modules>
         <module>springboot-2pc-seata</module>
+        <module>springboot-aop</module>
         <module>springboot-cannal</module>
         <module>springboot-common-utils</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-email</module>
+        <module>springboot-file</module>
         <module>springboot-html</module>
         <module>springboot-jpa</module>
         <module>springboot-jwt</module>
@@ -45,6 +47,7 @@
         <module>springboot-security</module>
         <module>springboot-shiro</module>
         <module>springboot-value</module>
+        <module>springboot-webflux</module>
         <module>springboot-websocket</module>
     </modules>
 

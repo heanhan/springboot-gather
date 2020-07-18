@@ -1,8 +1,6 @@
 package com.example.commonutils.pojo;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author by zhaojh0912
@@ -11,8 +9,6 @@ import lombok.NoArgsConstructor;
  */
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Result {
 
     /**
@@ -36,6 +32,11 @@ public class Result {
     private Object data;
 
     /**
+     * 无参构造
+     */
+    public Result(){};
+
+    /**
      * 无数据返回构造
      * @param flag
      * @param code
@@ -45,6 +46,20 @@ public class Result {
         this.flag = flag;
         this.code = code;
         this.message = message;
+    }
+
+    /**
+     * 带有返回的值的构造函数
+     * @param flag 响应是否成功
+     * @param code 响应状态码
+     * @param message 响应的信息
+     * @param data 返回的数据
+     */
+    public Result(boolean flag, Integer code, String message,Object data){
+        this.flag=false;
+        this.code=code;
+        this.message=message;
+        this.data=data;
     }
 
     
