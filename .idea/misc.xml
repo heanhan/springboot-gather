@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/email" />
+    <file type="web" url="file://$PROJECT_DIR$/quartz" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-2pc-seata" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-aop" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-cannal" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-email" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-jwt" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-kafka" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-ldap" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-mongodb" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-mybaits-auto-table" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis-simple" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-netty" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-scheduled" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-security" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-union-response" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-value" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-webflux" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-websocket" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-simple/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-muilty/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybaits-auto-table/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis-jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis-lettuce/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ldap/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-common-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-value/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-html/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-scheduled/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-2pc-seata/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cannal/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

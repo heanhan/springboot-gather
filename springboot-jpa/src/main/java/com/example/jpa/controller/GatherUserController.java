@@ -31,8 +31,8 @@ public class GatherUserController {
          * 1、首先进行vo与实体的类进行转换
          * 2、
          */
-        gatherUserApiService.addGatherUser(gatherUserVo);
-        return null;
+        String s = gatherUserApiService.addGatherUser(gatherUserVo);
+        return s;
     }
 
 }

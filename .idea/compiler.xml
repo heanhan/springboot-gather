@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-redis-jedis" />
+        <module name="springboot-cannal" />
+        <module name="springboot-mybatis-muilty" />
+        <module name="springboot-shiro" />
+        <module name="springboot-mybatis-simple" />
+        <module name="springboot-ldap" />
+        <module name="springboot-jpa" />
+        <module name="springboot-2pc-seata" />
+        <module name="springboot-scheduled" />
+        <module name="springboot-websocket" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-html" />
+        <module name="springboot-security" />
+        <module name="springboot-kafka" />
+        <module name="springboot-email" />
+        <module name="springboot-jwt" />
+        <module name="springboot-redis-lettuce" />
+        <module name="quartz" />
+        <module name="springboot-aop" />
+        <module name="springboot-file" />
+        <module name="springboot-webflux" />
+        <module name="springboot-netty" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-value" />
+        <module name="springboot-common-utils" />
+        <module name="springboot-mybaits-auto-table" />
+        <module name="springboot-union-response" />
+        <module name="springboot-quartz" />
+        <module name="springboot-mongodb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-utils" target="1.8" />
+      <module name="email" target="1.8" />
+      <module name="quartz" target="1.8" />
+      <module name="springboot-2pc-seata" target="1.8" />
+      <module name="springboot-aop" target="1.8" />
+      <module name="springboot-cannal" target="1.8" />
+      <module name="springboot-common-utils" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-email" target="1.8" />
+      <module name="springboot-file" target="1.8" />
+      <module name="springboot-gather" target="1.8" />
+      <module name="springboot-html" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-jwt" target="1.8" />
+      <module name="springboot-kafka" target="1.8" />
+      <module name="springboot-ldap" target="1.8" />
+      <module name="springboot-mongodb" target="1.8" />
+      <module name="springboot-mybaits-auto-table" target="1.8" />
+      <module name="springboot-mybatis-muilty" target="1.8" />
+      <module name="springboot-mybatis-simple" target="1.8" />
+      <module name="springboot-netty" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis-jedis" target="1.8" />
+      <module name="springboot-redis-lettuce" target="1.8" />
+      <module name="springboot-rocketmq" target="1.8" />
+      <module name="springboot-scheduled" target="1.8" />
+      <module name="springboot-security" target="1.8" />
+      <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-union-response" target="1.8" />
+      <module name="springboot-value" target="1.8" />
+      <module name="springboot-webflux" target="1.8" />
+      <module name="springboot-websocket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-utils" options="-parameters" />
+      <module name="email" options="-parameters" />
+      <module name="quartz" options="-parameters" />
+      <module name="springboot-2pc-seata" options="-parameters" />
+      <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-cannal" options="-parameters" />
+      <module name="springboot-common-utils" options="-parameters" />
+      <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-email" options="-parameters" />
+      <module name="springboot-file" options="-parameters" />
+      <module name="springboot-gather" options="-parameters" />
+      <module name="springboot-html" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-jwt" options="-parameters" />
+      <module name="springboot-kafka" options="-parameters" />
+      <module name="springboot-ldap" options="-parameters" />
+      <module name="springboot-mongodb" options="-parameters" />
+      <module name="springboot-mybaits-auto-table" options="-parameters" />
+      <module name="springboot-mybatis-muilty" options="-parameters" />
+      <module name="springboot-mybatis-simple" options="-parameters" />
+      <module name="springboot-netty" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-redis-jedis" options="-parameters" />
+      <module name="springboot-redis-lettuce" options="-parameters" />
+      <module name="springboot-rocketmq" options="-parameters" />
+      <module name="springboot-scheduled" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-union-response" options="-parameters" />
+      <module name="springboot-value" options="-parameters" />
+      <module name="springboot-webflux" options="-parameters" />
+      <module name="springboot-websocket" options="-parameters" />
+    </option>
+  </component>
+</project>
