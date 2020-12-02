@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-union-response:war">
+    <output-path>$PROJECT_DIR$/springboot-union-response/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-union-response</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-union-response-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-union-response:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-mybaits-auto-table:war">
+    <output-path>$PROJECT_DIR$/springboot-mybaits-auto-table/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-mybaits-auto-table</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mybaits-auto-table-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-mybaits-auto-table:war exploded" />
+    </root>
+  </artifact>
+</component>

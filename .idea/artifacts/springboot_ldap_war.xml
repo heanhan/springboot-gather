@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-ldap:war">
+    <output-path>$PROJECT_DIR$/springboot-ldap/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-ldap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ldap-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-ldap:war exploded" />
+    </root>
+  </artifact>
+</component>

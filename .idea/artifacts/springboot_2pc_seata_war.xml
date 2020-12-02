@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-2pc-seata:war">
+    <output-path>$PROJECT_DIR$/springboot-2pc-seata/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-2pc-seata</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="2pc-seata-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-2pc-seata:war exploded" />
+    </root>
+  </artifact>
+</component>
