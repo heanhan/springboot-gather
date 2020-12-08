@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-email/springboot-email.iml" filepath="$PROJECT_DIR$/springboot-email/springboot-email.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-file/springboot-file.iml" filepath="$PROJECT_DIR$/springboot-file/springboot-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-fink/springboot-fink.iml" filepath="$PROJECT_DIR$/springboot-fink/springboot-fink.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-gather.iml" filepath="$PROJECT_DIR$/springboot-gather.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybaits-auto-table/springboot-mybaits-auto-table.iml" filepath="$PROJECT_DIR$/springboot-mybaits-auto-table/springboot-mybaits-auto-table.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-muilty/springboot-mybatis-muilty.iml" filepath="$PROJECT_DIR$/springboot-mybatis-muilty/springboot-mybatis-muilty.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-simple/springboot-mybatis-simple.iml" filepath="$PROJECT_DIR$/springboot-mybatis-simple/springboot-mybatis-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-netty/springboot-netty.iml" filepath="$PROJECT_DIR$/springboot-netty/springboot-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />

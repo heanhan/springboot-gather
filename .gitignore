@@ -1,0 +1,125 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+springboot-2pc-seata/.gitignore
+springboot-2pc-seata/mvnw.cmd
+springboot-2pc-seata/src/main/resources/static/
+springboot-2pc-seata/src/main/resources/templates/
+springboot-aop/.gitignore
+springboot-aop/src/main/java/com/example/aop/config/
+springboot-aop/src/main/resources/static/
+springboot-aop/src/main/resources/templates/
+springboot-cannal/.gitignore
+springboot-cannal/mvnw.cmd
+springboot-cannal/src/main/resources/static/
+springboot-cannal/src/main/resources/templates/
+springboot-common-utils/.gitignore
+springboot-elasticsearch/src/main/resources/static/
+springboot-elasticsearch/src/main/resources/templates/
+springboot-email/src/main/resources/static/
+springboot-email/src/main/resources/templates/
+springboot-file/.gitignore
+springboot-file/mvnw.cmd
+springboot-file/src/main/java/com/example/file/dao/
+springboot-file/src/main/java/com/example/file/entity/
+springboot-file/src/main/java/com/example/file/service/
+springboot-file/src/main/java/com/example/file/vo/
+springboot-file/src/main/resources/static/
+springboot-file/src/main/resources/templates/
+springboot-file/src/main/resources/uploadfile/
+springboot-html/.gitignore
+springboot-html/mvnw.cmd
+springboot-html/src/main/resources/static/
+springboot-html/src/main/resources/templates/
+springboot-jpa/src/main/.DS_Store
+springboot-jpa/src/main/java/com/example/jpa/config/
+springboot-jpa/src/main/java/com/example/jpa/utils/
+springboot-jpa/src/main/resources/static/
+springboot-jpa/src/main/resources/templates/
+springboot-jwt/src/main/resources/static/
+springboot-jwt/src/main/resources/templates/
+springboot-kafka/.gitignore
+springboot-kafka/src/main/resources/static/
+springboot-kafka/src/main/resources/templates/
+springboot-ldap/src/main/resources/static/
+springboot-ldap/src/main/resources/templates/
+springboot-mongodb/src/main/resources/static/
+springboot-mongodb/src/main/resources/templates/
+springboot-mybaits-auto-table/src/main/resources/static/
+springboot-mybaits-auto-table/src/main/resources/templates/
+springboot-mybatis-muilty/src/main/resources/static/
+springboot-mybatis-muilty/src/main/resources/templates/
+springboot-mybatis-simple/src/main/resources/static/
+springboot-mybatis-simple/src/main/resources/templates/
+springboot-netty/.gitignore
+springboot-netty/mvnw.cmd
+springboot-netty/src/main/resources/static/
+springboot-netty/src/main/resources/templates/
+springboot-quartz/.gitignore
+springboot-quartz/mvnw.cmd
+springboot-quartz/src/main/resources/static/
+springboot-quartz/src/main/resources/templates/
+springboot-rabbitmq/.gitignore
+springboot-rabbitmq/src/main/resources/static/
+springboot-rabbitmq/src/main/resources/templates/
+springboot-redis-jedis/src/main/resources/static/
+springboot-redis-jedis/src/main/resources/templates/
+springboot-redis-lettuce/src/main/resources/static/
+springboot-redis-lettuce/src/main/resources/templates/
+springboot-rocketmq/.gitignore
+springboot-rocketmq/src/main/resources/static/
+springboot-rocketmq/src/main/resources/templates/
+springboot-scheduled/.gitignore
+springboot-scheduled/mvnw.cmd
+springboot-scheduled/src/main/resources/static/
+springboot-scheduled/src/main/resources/templates/
+springboot-security/src/main/resources/static/
+springboot-security/src/main/resources/templates/
+springboot-shiro/src/main/resources/static/
+springboot-shiro/src/main/resources/templates/
+springboot-union-response/src/main/java/com/example/union/config/
+springboot-union-response/src/main/java/com/example/union/dao/
+springboot-union-response/src/main/java/com/example/union/service/
+springboot-union-response/src/main/java/com/example/union/utils/
+springboot-value/.gitignore
+springboot-value/src/main/resources/static/
+springboot-value/src/main/resources/templates/
+springboot-webflux/.gitignore
+springboot-webflux/mvnw.cmd
+springboot-webflux/src/main/resources/static/
+springboot-webflux/src/main/resources/templates/
+springboot-websocket/.gitignore
+springboot-websocket/mvnw.cmd
+springboot-websocket/src/main/resources/static/
+springboot-websocket/src/main/resources/templates/

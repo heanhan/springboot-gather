@@ -28,6 +28,7 @@
         <module>springboot-elasticsearch</module>
         <module>springboot-email</module>
         <module>springboot-file</module>
+        <module>springboot-fink</module>
         <module>springboot-html</module>
         <module>springboot-jpa</module>
         <module>springboot-jwt</module>
@@ -37,6 +38,7 @@
         <module>springboot-mybaits-auto-table</module>
         <module>springboot-mybatis-muilty</module>
         <module>springboot-mybatis-simple</module>
+        <module>springboot-mycat</module>
         <module>springboot-netty</module>
         <module>springboot-quartz</module>
         <module>springboot-rabbitmq</module>

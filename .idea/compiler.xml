@@ -27,6 +27,7 @@
         <module name="springboot-redis-lettuce" />
         <module name="quartz" />
         <module name="springboot-aop" />
+        <module name="springboot-fink" />
         <module name="springboot-file" />
         <module name="springboot-webflux" />
         <module name="springboot-netty" />
@@ -35,6 +36,7 @@
         <module name="springboot-common-utils" />
         <module name="springboot-mybaits-auto-table" />
         <module name="springboot-union-response" />
+        <module name="springboot-mycat" />
         <module name="springboot-quartz" />
         <module name="springboot-mongodb" />
       </profile>
@@ -50,6 +52,7 @@
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-email" target="1.8" />
       <module name="springboot-file" target="1.8" />
+      <module name="springboot-fink" target="1.8" />
       <module name="springboot-gather" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
@@ -60,6 +63,7 @@
       <module name="springboot-mybaits-auto-table" target="1.8" />
       <module name="springboot-mybatis-muilty" target="1.8" />
       <module name="springboot-mybatis-simple" target="1.8" />
+      <module name="springboot-mycat" target="1.8" />
       <module name="springboot-netty" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
@@ -87,6 +91,7 @@
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-email" options="-parameters" />
       <module name="springboot-file" options="-parameters" />
+      <module name="springboot-fink" options="-parameters" />
       <module name="springboot-gather" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
@@ -97,6 +102,7 @@
       <module name="springboot-mybaits-auto-table" options="-parameters" />
       <module name="springboot-mybatis-muilty" options="-parameters" />
       <module name="springboot-mybatis-simple" options="-parameters" />
+      <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-netty" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
