@@ -40,6 +40,7 @@
         <module>springboot-mybatis-simple</module>
         <module>springboot-mycat</module>
         <module>springboot-netty</module>
+        <module>springboot-office</module>
         <module>springboot-quartz</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-redis-jedis</module>
@@ -47,6 +48,7 @@
         <module>springboot-rocketmq</module>
         <module>springboot-scheduled</module>
         <module>springboot-security</module>
+        <module>springboot-sharding-jdbc</module>
         <module>springboot-shiro</module>
         <module>springboot-union-response</module>
         <module>springboot-value</module>

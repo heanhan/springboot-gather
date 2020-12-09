@@ -12,9 +12,11 @@
         <module name="springboot-mybatis-muilty" />
         <module name="springboot-shiro" />
         <module name="springboot-mybatis-simple" />
+        <module name="springboot-office" />
         <module name="springboot-ldap" />
         <module name="springboot-jpa" />
         <module name="springboot-2pc-seata" />
+        <module name="springboot-sharding-jdbc" />
         <module name="springboot-scheduled" />
         <module name="springboot-websocket" />
         <module name="springboot-rabbitmq" />
@@ -65,6 +67,7 @@
       <module name="springboot-mybatis-simple" target="1.8" />
       <module name="springboot-mycat" target="1.8" />
       <module name="springboot-netty" target="1.8" />
+      <module name="springboot-office" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis-jedis" target="1.8" />
@@ -72,6 +75,7 @@
       <module name="springboot-rocketmq" target="1.8" />
       <module name="springboot-scheduled" target="1.8" />
       <module name="springboot-security" target="1.8" />
+      <module name="springboot-sharding-jdbc" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-union-response" target="1.8" />
       <module name="springboot-value" target="1.8" />
@@ -104,6 +108,7 @@
       <module name="springboot-mybatis-simple" options="-parameters" />
       <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-netty" options="-parameters" />
+      <module name="springboot-office" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis-jedis" options="-parameters" />
@@ -111,6 +116,7 @@
       <module name="springboot-rocketmq" options="-parameters" />
       <module name="springboot-scheduled" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
+      <module name="springboot-sharding-jdbc" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-union-response" options="-parameters" />
       <module name="springboot-value" options="-parameters" />

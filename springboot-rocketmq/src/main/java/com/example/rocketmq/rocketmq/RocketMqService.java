@@ -17,6 +17,8 @@ public interface RocketMqService {
      * @param mqMsg 发送消息实体类
      */
     void send(MqMsg mqMsg);
+
+
     /**
      * 异步发送消息，异步返回消息结果<br/>
      * <p>
@@ -25,6 +27,8 @@ public interface RocketMqService {
      * @param mqMsg 发送消息实体类
      */
     void asyncSend(MqMsg mqMsg);
+
+
     /**
      * 直接发送发送消息，不关心返回结果，容易消息丢失，适合日志收集、不精确统计等消息发送;<br/>
      * <p>

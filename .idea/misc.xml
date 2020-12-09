@@ -19,11 +19,13 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybaits-auto-table" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis-simple" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-netty" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-office" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-scheduled" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-security" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-sharding-jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-union-response" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-value" />

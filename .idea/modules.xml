@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-simple/springboot-mybatis-simple.iml" filepath="$PROJECT_DIR$/springboot-mybatis-simple/springboot-mybatis-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" filepath="$PROJECT_DIR$/springboot-mycat/springboot-mycat.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-netty/springboot-netty.iml" filepath="$PROJECT_DIR$/springboot-netty/springboot-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-office/springboot-office.iml" filepath="$PROJECT_DIR$/springboot-office/springboot-office.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-jedis/springboot-redis-jedis.iml" filepath="$PROJECT_DIR$/springboot-redis-jedis/springboot-redis-jedis.iml" />
@@ -29,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq.iml" filepath="$PROJECT_DIR$/springboot-rocketmq/springboot-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" filepath="$PROJECT_DIR$/springboot-scheduled/springboot-scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sharding-jdbc/springboot-sharding-jdbc.iml" filepath="$PROJECT_DIR$/springboot-sharding-jdbc/springboot-sharding-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-union-response/springboot-union-response.iml" filepath="$PROJECT_DIR$/springboot-union-response/springboot-union-response.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-value/springboot-value.iml" filepath="$PROJECT_DIR$/springboot-value/springboot-value.iml" />

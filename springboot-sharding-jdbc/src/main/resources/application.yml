@@ -1,0 +1,40 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true #\u5141\u8BB8Bean\u91CD\u590D\u6CE8\u5165\uFF0C\u540E\u8005\u8986\u76D6\u524D\u8005
+sharding:
+  jdbc:
+    datasource:
+      names: db0,db1,db2
+      db0:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/db0?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: 123456
+      db1:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/db1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: 123456
+      db2:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/db2?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        username: root
+        password: 123456
+    config:
+      props:
+        sql.show: true #\u6253\u5370sql
+      sharding:
+        default-database-strategy: #\u9ED8\u8BA4\u5206\u5E93\u7B56\u7565
+          inline:
+            sharding-column: id
+            algorithm-expression: db$->{id % 3}
+        tables:
+          t_user:
+            actual-data-nodes: db$->{0..2}.t_user_$->{0..2} #\u5B9E\u9645\u8282\u70B9
+            table-strategy: #\u5206\u8868\u7B56\u7565
+              inline:
+                sharding-column: org_code
+                algorithm-expression: t_user_$->{org_code % 3}
