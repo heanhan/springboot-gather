@@ -23,6 +23,7 @@
     <modules>
         <module>springboot-2pc-seata</module>
         <module>springboot-aop</module>
+        <module>springboot-backup</module>
         <module>springboot-cannal</module>
         <module>springboot-common-utils</module>
         <module>springboot-elasticsearch</module>
@@ -41,6 +42,7 @@
         <module>springboot-mycat</module>
         <module>springboot-netty</module>
         <module>springboot-office</module>
+        <module>springboot-operator-linux</module>
         <module>springboot-quartz</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-redis-jedis</module>

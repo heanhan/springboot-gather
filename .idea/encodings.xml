@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/springboot-2pc-seata/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-backup/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-cannal/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-common-utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java" charset="UTF-8" />
@@ -21,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/springboot-mycat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-netty/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-office/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-operator-linux/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis-jedis/src/main/java" charset="UTF-8" />

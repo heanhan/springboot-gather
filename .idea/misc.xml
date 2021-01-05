@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-2pc-seata" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-aop" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-backup" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-cannal" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-email" />
@@ -20,6 +21,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis-simple" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-netty" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-office" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-operator-linux" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq" />

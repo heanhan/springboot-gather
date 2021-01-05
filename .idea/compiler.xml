@@ -14,6 +14,7 @@
         <module name="springboot-mybatis-simple" />
         <module name="springboot-office" />
         <module name="springboot-ldap" />
+        <module name="springboot-operator-linux" />
         <module name="springboot-jpa" />
         <module name="springboot-2pc-seata" />
         <module name="springboot-sharding-jdbc" />
@@ -33,6 +34,7 @@
         <module name="springboot-file" />
         <module name="springboot-webflux" />
         <module name="springboot-netty" />
+        <module name="springboot-backup" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-value" />
         <module name="springboot-common-utils" />
@@ -49,6 +51,7 @@
       <module name="quartz" target="1.8" />
       <module name="springboot-2pc-seata" target="1.8" />
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-backup" target="1.8" />
       <module name="springboot-cannal" target="1.8" />
       <module name="springboot-common-utils" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
@@ -68,6 +71,7 @@
       <module name="springboot-mycat" target="1.8" />
       <module name="springboot-netty" target="1.8" />
       <module name="springboot-office" target="1.8" />
+      <module name="springboot-operator-linux" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis-jedis" target="1.8" />
@@ -90,6 +94,7 @@
       <module name="quartz" options="-parameters" />
       <module name="springboot-2pc-seata" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-backup" options="-parameters" />
       <module name="springboot-cannal" options="-parameters" />
       <module name="springboot-common-utils" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
@@ -109,6 +114,7 @@
       <module name="springboot-mycat" options="-parameters" />
       <module name="springboot-netty" options="-parameters" />
       <module name="springboot-office" options="-parameters" />
+      <module name="springboot-operator-linux" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis-jedis" options="-parameters" />
