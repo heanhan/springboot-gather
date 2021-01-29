@@ -25,6 +25,7 @@
         <module name="springboot-html" />
         <module name="springboot-security" />
         <module name="springboot-kafka" />
+        <module name="springboot-rocketmq-alibaba" />
         <module name="springboot-email" />
         <module name="springboot-jwt" />
         <module name="springboot-redis-lettuce" />
@@ -77,6 +78,7 @@
       <module name="springboot-redis-jedis" target="1.8" />
       <module name="springboot-redis-lettuce" target="1.8" />
       <module name="springboot-rocketmq" target="1.8" />
+      <module name="springboot-rocketmq-alibaba" target="1.8" />
       <module name="springboot-scheduled" target="1.8" />
       <module name="springboot-security" target="1.8" />
       <module name="springboot-sharding-jdbc" target="1.8" />
@@ -120,6 +122,7 @@
       <module name="springboot-redis-jedis" options="-parameters" />
       <module name="springboot-redis-lettuce" options="-parameters" />
       <module name="springboot-rocketmq" options="-parameters" />
+      <module name="springboot-rocketmq-alibaba" options="-parameters" />
       <module name="springboot-scheduled" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-sharding-jdbc" options="-parameters" />

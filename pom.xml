@@ -48,6 +48,7 @@
         <module>springboot-redis-jedis</module>
         <module>springboot-redis-lettuce</module>
         <module>springboot-rocketmq</module>
+        <module>springboot-rocketmq-alibaba</module>
         <module>springboot-scheduled</module>
         <module>springboot-security</module>
         <module>springboot-sharding-jdbc</module>

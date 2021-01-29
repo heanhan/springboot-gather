@@ -25,6 +25,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq-alibaba" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-scheduled" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-security" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-sharding-jdbc" />
