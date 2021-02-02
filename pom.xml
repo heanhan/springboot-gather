@@ -53,6 +53,7 @@
         <module>springboot-security</module>
         <module>springboot-sharding-jdbc</module>
         <module>springboot-shiro</module>
+        <module>springboot-stream</module>
         <module>springboot-union-response</module>
         <module>springboot-value</module>
         <module>springboot-webflux</module>
