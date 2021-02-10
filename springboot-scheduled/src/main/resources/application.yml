@@ -1,1 +1,7 @@
+#配置微服务的信息
+server:
+  port: 9221
+spring:
+  application:
+    name: springboot-scheduled
 
