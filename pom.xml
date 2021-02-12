@@ -26,6 +26,7 @@
         <module>springboot-backup</module>
         <module>springboot-cannal</module>
         <module>springboot-common-utils</module>
+        <module>springboot-cors</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-email</module>
         <module>springboot-file</module>
