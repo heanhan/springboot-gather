@@ -7,17 +7,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-/**
- * @Author :zhaojh0912
- * @Date : 2020/12/8 2:09 下午
- * @Version : 1.0
- * @Description :Too
- **/
 
 /**
  * 消息队列消费端使用示例
- *
- **/
+ * @Date : 2020/12/8 2:09 下午
+ * @Version : 1.0
+ * @Description :RocketMQ 消息的监听
+ * @author zhaojh0912*/
 
 @Service
 @RocketMQMessageListener(topic = MqTopicConstant.DEMO_TOPIC

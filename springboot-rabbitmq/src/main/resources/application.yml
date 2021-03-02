@@ -1,1 +1,12 @@
-
+#配置微服务信息
+server:
+  port: 9303
+spring:
+  application:
+    name: springboot-rabbitmq
+  rabbitmq:
+    host: 192.168.20.130
+    username: guest
+    password: guest
+  main:
+    allow-bean-definition-overriding: true

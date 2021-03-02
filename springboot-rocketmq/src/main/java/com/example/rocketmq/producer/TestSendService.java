@@ -19,7 +19,9 @@ public class TestSendService {
     @Resource
     private RocketMQTemplate rocketMQTemplate;
 
-    //生产消息
+    /**
+     * 生产消息
+     */
     public void send() {
         rocketMQTemplate.send("test-topic-1",
                 MessageBuilder.withPayload("Hello, World! I'm from spring message").build());

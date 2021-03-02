@@ -38,6 +38,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--RabbitMQ的坐标-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
         <!-- 條用工具類的jar 包       -->
         <dependency>
             <groupId>com.example</groupId>
