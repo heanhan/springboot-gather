@@ -46,6 +46,7 @@
         <module>springboot-operator-linux</module>
         <module>springboot-quartz</module>
         <module>springboot-rabbitmq</module>
+        <module>springboot-redis-hotspot</module>
         <module>springboot-redis-jedis</module>
         <module>springboot-redis-lettuce</module>
         <module>springboot-rocketmq</module>
@@ -54,6 +55,7 @@
         <module>springboot-security</module>
         <module>springboot-sharding-jdbc</module>
         <module>springboot-shiro</module>
+        <module>springboot-shiro-simple</module>
         <module>springboot-stream</module>
         <module>springboot-union-response</module>
         <module>springboot-value</module>
