@@ -57,6 +57,7 @@
         <module>springboot-shiro</module>
         <module>springboot-shiro-simple</module>
         <module>springboot-stream</module>
+        <module>springboot-swagger-ui</module>
         <module>springboot-union-response</module>
         <module>springboot-value</module>
         <module>springboot-webflux</module>

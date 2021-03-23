@@ -1,0 +1,6 @@
+#\u914D\u7F6E springboot-swaager-ui\u7684 \u670D\u52A1\u4FE1\u606F
+#\u751F\u4EA7\u73AF\u5883\u6539\u6210false\u7981\u7528
+server:
+  port: 8017
+swagger:
+  enable: true
