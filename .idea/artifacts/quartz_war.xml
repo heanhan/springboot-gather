@@ -1,10 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="quartz:war">
-    <output-path>$PROJECT_DIR$/quartz/target</output-path>
+    <output-path>$PROJECT_DIR$/springboot-quartz/target</output-path>
     <properties id="maven-jee-properties">
       <options>
+        <exploded>false</exploded>
         <module>quartz</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="quartz-0.0.1-SNAPSHOT.war">

@@ -29,6 +29,7 @@
         <module>springboot-cors</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-email</module>
+        <module>springboot-exception</module>
         <module>springboot-file</module>
         <module>springboot-fink</module>
         <module>springboot-html</module>

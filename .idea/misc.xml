@@ -7,8 +7,10 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-aop" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-backup" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-cannal" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-cors" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-elasticsearch" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-email" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-exception" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-file" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-fink" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-html" />
@@ -24,12 +26,16 @@
     <file type="web" url="file://$PROJECT_DIR$/springboot-operator-linux" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-quartz" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-redis-hotspot" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-rocketmq-alibaba" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-scheduled" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-security" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-sharding-jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-shiro" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-shiro-simple" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-stream" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-swagger-ui" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-union-response" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-value" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-webflux" />
@@ -67,6 +73,8 @@
         <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-file/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-union-response/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,56 +7,111 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis-jedis" />
+        <module name="aop" />
         <module name="springboot-redis-jedis" />
+        <module name="common-utils" />
+        <module name="springboot-office" />
+        <module name="elasticsearch" />
+        <module name="ldap" />
+        <module name="websocket" />
+        <module name="springboot-websocket" />
+        <module name="springboot-rabbitmq" />
+        <module name="html" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-redis-hotspot" />
+        <module name="springboot-swagger-ui" />
+        <module name="springboot-kafka" />
+        <module name="springboot-rocketmq-alibaba" />
+        <module name="redis-lettuce" />
+        <module name="springboot-jwt" />
+        <module name="springboot-redis-lettuce" />
+        <module name="mybaits-auto-table" />
+        <module name="springboot-fink" />
+        <module name="springboot-webflux" />
+        <module name="springboot-netty" />
+        <module name="cannal" />
+        <module name="springboot-backup" />
+        <module name="springboot-value" />
+        <module name="kafka" />
+        <module name="springboot-common-utils" />
+        <module name="springboot-mybaits-auto-table" />
+        <module name="springboot-quartz" />
+        <module name="springboot-mongodb" />
+        <module name="jwt" />
+        <module name="scheduled" />
         <module name="springboot-cannal" />
+        <module name="webflux" />
         <module name="springboot-mybatis-muilty" />
         <module name="springboot-shiro" />
         <module name="springboot-mybatis-simple" />
-        <module name="springboot-office" />
         <module name="springboot-ldap" />
+        <module name="security" />
         <module name="springboot-operator-linux" />
-        <module name="springboot-jpa" />
         <module name="springboot-2pc-seata" />
+        <module name="file" />
+        <module name="springboot-jpa" />
         <module name="springboot-sharding-jdbc" />
         <module name="springboot-scheduled" />
-        <module name="springboot-websocket" />
-        <module name="springboot-rabbitmq" />
-        <module name="springboot-rocketmq" />
+        <module name="springboot-cors" />
+        <module name="mybatis-simple" />
         <module name="springboot-html" />
         <module name="springboot-security" />
-        <module name="springboot-kafka" />
-        <module name="springboot-rocketmq-alibaba" />
+        <module name="value" />
+        <module name="mongodb" />
+        <module name="email" />
+        <module name="springboot-shiro-simple" />
+        <module name="netty" />
         <module name="springboot-email" />
-        <module name="springboot-jwt" />
-        <module name="springboot-redis-lettuce" />
+        <module name="rocketmq" />
         <module name="quartz" />
         <module name="springboot-aop" />
-        <module name="springboot-fink" />
+        <module name="mybatis-muilty" />
+        <module name="2pc-seata" />
+        <module name="springboot-exception" />
+        <module name="rabbitmq" />
         <module name="springboot-file" />
-        <module name="springboot-webflux" />
-        <module name="springboot-netty" />
-        <module name="springboot-backup" />
+        <module name="shiro" />
         <module name="springboot-elasticsearch" />
-        <module name="springboot-value" />
-        <module name="springboot-common-utils" />
-        <module name="springboot-mybaits-auto-table" />
+        <module name="springboot-stream" />
         <module name="springboot-union-response" />
         <module name="springboot-mycat" />
-        <module name="springboot-quartz" />
-        <module name="springboot-mongodb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="2pc-seata" target="1.8" />
+      <module name="aop" target="1.8" />
+      <module name="cannal" target="1.8" />
       <module name="common-utils" target="1.8" />
+      <module name="elasticsearch" target="1.8" />
       <module name="email" target="1.8" />
+      <module name="file" target="1.8" />
+      <module name="html" target="1.8" />
+      <module name="jwt" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="ldap" target="1.8" />
+      <module name="mongodb" target="1.8" />
+      <module name="mybaits-auto-table" target="1.8" />
+      <module name="mybatis-muilty" target="1.8" />
+      <module name="mybatis-simple" target="1.8" />
+      <module name="netty" target="1.8" />
       <module name="quartz" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="redis-jedis" target="1.8" />
+      <module name="redis-lettuce" target="1.8" />
+      <module name="rocketmq" target="1.8" />
+      <module name="scheduled" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="shiro" target="1.8" />
       <module name="springboot-2pc-seata" target="1.8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-backup" target="1.8" />
       <module name="springboot-cannal" target="1.8" />
       <module name="springboot-common-utils" target="1.8" />
+      <module name="springboot-cors" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-email" target="1.8" />
+      <module name="springboot-exception" target="1.8" />
       <module name="springboot-file" target="1.8" />
       <module name="springboot-fink" target="1.8" />
       <module name="springboot-gather" target="1.8" />
@@ -75,6 +130,7 @@
       <module name="springboot-operator-linux" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-redis-hotspot" target="1.8" />
       <module name="springboot-redis-jedis" target="1.8" />
       <module name="springboot-redis-lettuce" target="1.8" />
       <module name="springboot-rocketmq" target="1.8" />
@@ -83,24 +139,53 @@
       <module name="springboot-security" target="1.8" />
       <module name="springboot-sharding-jdbc" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-shiro-simple" target="1.8" />
+      <module name="springboot-stream" target="1.8" />
+      <module name="springboot-swagger-ui" target="1.8" />
       <module name="springboot-union-response" target="1.8" />
       <module name="springboot-value" target="1.8" />
       <module name="springboot-webflux" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="value" target="1.8" />
+      <module name="webflux" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="2pc-seata" options="-parameters" />
+      <module name="aop" options="-parameters" />
+      <module name="cannal" options="-parameters" />
       <module name="common-utils" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
       <module name="email" options="-parameters" />
+      <module name="file" options="-parameters" />
+      <module name="html" options="-parameters" />
+      <module name="jwt" options="-parameters" />
+      <module name="kafka" options="-parameters" />
+      <module name="ldap" options="-parameters" />
+      <module name="mongodb" options="-parameters" />
+      <module name="mybaits-auto-table" options="-parameters" />
+      <module name="mybatis-muilty" options="-parameters" />
+      <module name="mybatis-simple" options="-parameters" />
+      <module name="netty" options="-parameters" />
       <module name="quartz" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
+      <module name="redis-jedis" options="-parameters" />
+      <module name="redis-lettuce" options="-parameters" />
+      <module name="rocketmq" options="-parameters" />
+      <module name="scheduled" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="shiro" options="-parameters" />
       <module name="springboot-2pc-seata" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-backup" options="-parameters" />
       <module name="springboot-cannal" options="-parameters" />
       <module name="springboot-common-utils" options="-parameters" />
+      <module name="springboot-cors" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-email" options="-parameters" />
+      <module name="springboot-exception" options="-parameters" />
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-fink" options="-parameters" />
       <module name="springboot-gather" options="-parameters" />
@@ -119,6 +204,7 @@
       <module name="springboot-operator-linux" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-redis-hotspot" options="-parameters" />
       <module name="springboot-redis-jedis" options="-parameters" />
       <module name="springboot-redis-lettuce" options="-parameters" />
       <module name="springboot-rocketmq" options="-parameters" />
@@ -127,10 +213,16 @@
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-sharding-jdbc" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-shiro-simple" options="-parameters" />
+      <module name="springboot-stream" options="-parameters" />
+      <module name="springboot-swagger-ui" options="-parameters" />
       <module name="springboot-union-response" options="-parameters" />
       <module name="springboot-value" options="-parameters" />
       <module name="springboot-webflux" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
+      <module name="value" options="-parameters" />
+      <module name="webflux" options="-parameters" />
+      <module name="websocket" options="-parameters" />
     </option>
   </component>
 </project>
