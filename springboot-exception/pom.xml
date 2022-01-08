@@ -29,10 +29,9 @@
             </exclusions>
         </dependency>
 
-        <dependency>>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -58,6 +57,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--添加该坐标，原因springboot-2.3.X 以前不用引入自带，之后的版本需要引入-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.1.Final</version>
+        </dependency>
+
     </dependencies>
 
     <build>

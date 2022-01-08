@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,12 +27,12 @@ import java.util.List;
 public class UserRestController {
 
     @PostMapping("/user")
-    public boolean insert(@RequestBody User user) {
+    public boolean insert(@RequestBody @Valid User user) {
        log.info("开始新增...");
         //如果姓名为空就手动抛出一个自定义的异常！
-        if(user.getName()==null){
-            throw  new BizException("-1","用户姓名不能为空！");
-        }
+//        if(user.getName()==null){
+//            throw  new BizException("-1","用户姓名不能为空！");
+//        }
         return true;
     }
 

@@ -2,6 +2,8 @@ package com.example.springbootexception.pojo;
 
 import lombok.Data;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * @Classname User
  * @Description TODO
@@ -14,13 +16,16 @@ public class User {
     /**
      * 编号
      */
+    @NotNull
     private int id;
     /**
      * 姓名
      */
+    @NotNull
     private String name;
     /**
      * 年龄
      */
+    @NotNull
     private int age;
 }

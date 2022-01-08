@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-jedis" />
-        <module name="aop" />
         <module name="springboot-redis-jedis" />
         <module name="common-utils" />
         <module name="springboot-office" />
@@ -48,10 +47,10 @@
         <module name="springboot-ldap" />
         <module name="security" />
         <module name="springboot-operator-linux" />
-        <module name="springboot-2pc-seata" />
         <module name="file" />
         <module name="springboot-jpa" />
         <module name="springboot-sharding-jdbc" />
+        <module name="springboot-2pc-seata" />
         <module name="springboot-scheduled" />
         <module name="springboot-cors" />
         <module name="mybatis-simple" />
@@ -65,9 +64,8 @@
         <module name="springboot-email" />
         <module name="rocketmq" />
         <module name="quartz" />
-        <module name="springboot-aop" />
         <module name="mybatis-muilty" />
-        <module name="2pc-seata" />
+        <module name="springboot-aop" />
         <module name="springboot-exception" />
         <module name="rabbitmq" />
         <module name="springboot-file" />
@@ -79,8 +77,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="2pc-seata" target="1.8" />
-      <module name="aop" target="1.8" />
       <module name="cannal" target="1.8" />
       <module name="common-utils" target="1.8" />
       <module name="elasticsearch" target="1.8" />
@@ -153,8 +149,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="2pc-seata" options="-parameters" />
-      <module name="aop" options="-parameters" />
       <module name="cannal" options="-parameters" />
       <module name="common-utils" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />

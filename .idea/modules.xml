@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboot-2pc-seata/2pc-seata.iml" filepath="$PROJECT_DIR$/springboot-2pc-seata/2pc-seata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-aop/aop.iml" filepath="$PROJECT_DIR$/springboot-aop/aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cannal/cannal.iml" filepath="$PROJECT_DIR$/springboot-cannal/cannal.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common-utils/common-utils.iml" filepath="$PROJECT_DIR$/springboot-common-utils/common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/elasticsearch.iml" />
