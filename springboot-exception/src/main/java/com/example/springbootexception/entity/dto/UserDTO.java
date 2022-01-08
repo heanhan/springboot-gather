@@ -1,6 +1,6 @@
-package com.example.springbootexception.pojo.dto;
+package com.example.springbootexception.entity.dto;
 
-import com.example.springbootexception.pojo.Job;
+import com.example.springbootexception.entity.pojo.Job;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 

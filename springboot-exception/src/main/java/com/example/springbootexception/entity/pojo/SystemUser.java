@@ -1,17 +1,18 @@
-package com.example.springbootexception.pojo;
+package com.example.springbootexception.entity.pojo;
 
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 /**
- * @Classname User
+ * @Classname SystemUser
  * @Description TODO
- * @Date 2022/1/8 11:29 上午
+ * @Date 2022/1/8 4:38 下午
  * @Created by zhaojh0912
  */
 @Data
-public class User {
+public class SystemUser implements Serializable {
 
     /**
      * 编号

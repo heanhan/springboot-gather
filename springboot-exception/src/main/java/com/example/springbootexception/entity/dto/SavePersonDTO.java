@@ -1,4 +1,4 @@
-package com.example.springbootexception.pojo;
+package com.example.springbootexception.entity.pojo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -10,31 +10,26 @@ import javax.validation.constraints.Size;
 
 /**
  * @Classname User
- * @Description 更新用户DTO类
+ * @Description TODO
  * @Date 2022/1/8 11:29 上午
  * @Created by zhaojh0912
  */
 
 @Data
 @Accessors(chain = true)
-public class UpdatePersonDTO {
-
-
-    /**
-     * 用户id
-     */
-    @NotNull
-    private Long id;
+public class SavePersonDTO {
 
     /**
      * 姓名
      */
+    @NotNull
     @Size(min = 2, max = 10)
     private String name;
 
     /**
      * 年龄
      */
+    @NotNull
     @Max(200)
     private Integer age;
 

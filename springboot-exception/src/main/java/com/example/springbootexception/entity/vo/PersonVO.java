@@ -1,4 +1,4 @@
-package com.example.springbootexception.pojo;
+package com.example.springbootexception.entity.vo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
