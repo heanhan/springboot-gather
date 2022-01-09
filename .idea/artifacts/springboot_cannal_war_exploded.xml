@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>springboot-cannal</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -42,6 +43,7 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.27" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.71" />
         </element>
       </element>
       <element id="directory" name="META-INF">

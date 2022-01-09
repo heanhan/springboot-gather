@@ -1,1 +1,4 @@
+#配置 elasticsearch
+server:
+  port: 9401
 

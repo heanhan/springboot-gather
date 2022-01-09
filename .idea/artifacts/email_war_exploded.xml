@@ -12,7 +12,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="email" />
+          <element id="module-output" name="springboot-email" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.0" />
@@ -52,7 +52,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/springboot-email/target/email-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="email/web/Web" />
+      <element id="javaee-facet-resources" facet="springboot-email/web/Web" />
     </root>
   </artifact>
 </component>

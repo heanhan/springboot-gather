@@ -18,6 +18,9 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <springboot-version>2.4.0</springboot-version>
+        <lombok-version>1.18.16</lombok-version>
+        <fastjason-version>1.2.71</fastjason-version>
     </properties>
 
     <modules>
@@ -81,7 +84,14 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>${lombok-version}</version>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjason-version}</version>
         </dependency>
 
 <!--        <dependency>-->
@@ -101,18 +111,10 @@
 <!--            <artifactId>springfox-swagger-ui</artifactId>-->
 <!--            <version>2.9.2</version>-->
 <!--        </dependency>-->
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
     </dependencies>

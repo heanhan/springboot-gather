@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>springboot-rocketmq</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -30,7 +31,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.1" />
           <element id="library" level="project" name="Maven: org.glassfish:jakarta.el:3.0.3" />
           <element id="archive" name="common-utils-0.0.1-SNAPSHOT.jar">
-            <element id="module-output" name="springboot-common-utils" />
+            <element id="module-output" name="common-utils" />
           </element>
           <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt:0.9.0" />
           <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-spring-boot-starter:2.1.0" />
@@ -41,7 +42,6 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.11" />
           <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-acl:4.6.0" />
           <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-remoting:4.6.0" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.61" />
           <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.54.Final" />
           <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:2.0.34.Final" />
           <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-logging:4.6.0" />
@@ -72,6 +72,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.1" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.27" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.71" />
         </element>
       </element>
       <element id="directory" name="META-INF">

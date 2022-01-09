@@ -52,12 +52,6 @@
             <version>1.2.73</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
         <!--添加该坐标，原因springboot-2.3.X 以前不用引入自带，之后的版本需要引入-->
         <dependency>
             <groupId>org.hibernate</groupId>

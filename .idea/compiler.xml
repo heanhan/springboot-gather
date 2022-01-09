@@ -11,7 +11,6 @@
         <module name="springboot-redis-jedis" />
         <module name="common-utils" />
         <module name="springboot-office" />
-        <module name="elasticsearch" />
         <module name="ldap" />
         <module name="websocket" />
         <module name="springboot-websocket" />
@@ -29,7 +28,6 @@
         <module name="springboot-fink" />
         <module name="springboot-webflux" />
         <module name="springboot-netty" />
-        <module name="cannal" />
         <module name="springboot-backup" />
         <module name="springboot-value" />
         <module name="kafka" />
@@ -39,8 +37,8 @@
         <module name="springboot-mongodb" />
         <module name="jwt" />
         <module name="scheduled" />
-        <module name="springboot-cannal" />
         <module name="webflux" />
+        <module name="springboot-cannal" />
         <module name="springboot-mybatis-muilty" />
         <module name="springboot-shiro" />
         <module name="springboot-mybatis-simple" />
@@ -58,11 +56,9 @@
         <module name="springboot-security" />
         <module name="value" />
         <module name="mongodb" />
-        <module name="email" />
         <module name="springboot-shiro-simple" />
         <module name="netty" />
         <module name="springboot-email" />
-        <module name="rocketmq" />
         <module name="quartz" />
         <module name="mybatis-muilty" />
         <module name="springboot-aop" />
@@ -70,17 +66,14 @@
         <module name="rabbitmq" />
         <module name="springboot-file" />
         <module name="shiro" />
-        <module name="springboot-elasticsearch" />
         <module name="springboot-stream" />
+        <module name="springboot-elasticsearch" />
         <module name="springboot-union-response" />
         <module name="springboot-mycat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cannal" target="1.8" />
       <module name="common-utils" target="1.8" />
-      <module name="elasticsearch" target="1.8" />
-      <module name="email" target="1.8" />
       <module name="file" target="1.8" />
       <module name="html" target="1.8" />
       <module name="jwt" target="1.8" />
@@ -95,7 +88,6 @@
       <module name="rabbitmq" target="1.8" />
       <module name="redis-jedis" target="1.8" />
       <module name="redis-lettuce" target="1.8" />
-      <module name="rocketmq" target="1.8" />
       <module name="scheduled" target="1.8" />
       <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
@@ -149,10 +141,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cannal" options="-parameters" />
       <module name="common-utils" options="-parameters" />
-      <module name="elasticsearch" options="-parameters" />
-      <module name="email" options="-parameters" />
       <module name="file" options="-parameters" />
       <module name="html" options="-parameters" />
       <module name="jwt" options="-parameters" />
@@ -167,7 +156,6 @@
       <module name="rabbitmq" options="-parameters" />
       <module name="redis-jedis" options="-parameters" />
       <module name="redis-lettuce" options="-parameters" />
-      <module name="rocketmq" options="-parameters" />
       <module name="scheduled" options="-parameters" />
       <module name="security" options="-parameters" />
       <module name="shiro" options="-parameters" />

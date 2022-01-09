@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboot-cannal/cannal.iml" filepath="$PROJECT_DIR$/springboot-cannal/cannal.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common-utils/common-utils.iml" filepath="$PROJECT_DIR$/springboot-common-utils/common-utils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-email/email.iml" filepath="$PROJECT_DIR$/springboot-email/email.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-file/file.iml" filepath="$PROJECT_DIR$/springboot-file/file.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/html.iml" filepath="$PROJECT_DIR$/springboot-html/html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jwt/jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/jwt.iml" />
@@ -20,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-jedis/redis-jedis.iml" filepath="$PROJECT_DIR$/springboot-redis-jedis/redis-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis-lettuce/redis-lettuce.iml" filepath="$PROJECT_DIR$/springboot-redis-lettuce/redis-lettuce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-rocketmq/rocketmq.iml" filepath="$PROJECT_DIR$/springboot-rocketmq/rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-scheduled/scheduled.iml" filepath="$PROJECT_DIR$/springboot-scheduled/scheduled.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/security.iml" filepath="$PROJECT_DIR$/springboot-security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/shiro.iml" />
