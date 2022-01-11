@@ -1,4 +1,13 @@
 #配置 elasticsearch
 server:
   port: 9401
-
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: 192.168.1.74:9200
+      username: elasticsearch
+      password: elasticsearch123456
