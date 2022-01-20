@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-exception/springboot-exception.iml" filepath="$PROJECT_DIR$/springboot-exception/springboot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-file/springboot-file.iml" filepath="$PROJECT_DIR$/springboot-file/springboot-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fink/springboot-fink.iml" filepath="$PROJECT_DIR$/springboot-fink/springboot-fink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-flowable/springboot-flowable.iml" filepath="$PROJECT_DIR$/springboot-flowable/springboot-flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-gather.iml" filepath="$PROJECT_DIR$/springboot-gather.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />

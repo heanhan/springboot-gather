@@ -59,6 +59,7 @@
         <module name="springboot-shiro-simple" />
         <module name="netty" />
         <module name="springboot-email" />
+        <module name="springboot-flowable" />
         <module name="quartz" />
         <module name="mybatis-muilty" />
         <module name="springboot-aop" />
@@ -102,6 +103,7 @@
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-file" target="1.8" />
       <module name="springboot-fink" target="1.8" />
+      <module name="springboot-flowable" target="1.8" />
       <module name="springboot-gather" target="1.8" />
       <module name="springboot-html" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
@@ -170,6 +172,7 @@
       <module name="springboot-exception" options="-parameters" />
       <module name="springboot-file" options="-parameters" />
       <module name="springboot-fink" options="-parameters" />
+      <module name="springboot-flowable" options="-parameters" />
       <module name="springboot-gather" options="-parameters" />
       <module name="springboot-html" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />

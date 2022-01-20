@@ -75,6 +75,7 @@
         <option value="$PROJECT_DIR$/springboot-webflux/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-union-response/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-flowable/pom.xml" />
       </list>
     </option>
   </component>

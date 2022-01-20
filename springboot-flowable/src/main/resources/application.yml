@@ -1,0 +1,11 @@
+#\u5FAE\u670D\u52A1\u7684\u914D\u7F6E
+server:
+  port: 9203
+spring:
+  application:
+    name: springboot-flowable
+  datasource:
+    url: jdbc:mysql://localhost:3306/flowable?useSSL=false&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Root1234
